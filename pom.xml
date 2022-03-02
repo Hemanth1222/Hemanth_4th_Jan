@@ -25,6 +25,7 @@
 			<version>${cucumber.version}</version>
 			<scope>test</scope>
 		</dependency>
+	
 
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -38,26 +39,7 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
-		
-	<!--  	
 		<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>datatable</artifactId>
-    <version>1.1.12</version>
-</dependency>
-		-->
-		
-		
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>${junit.version}</version>
-			<scope>test</scope>
-		</dependency>
-		
-		
-	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-	<dependency>
 	    <groupId>org.apache.poi</groupId>
 	    <artifactId>poi-ooxml</artifactId>
 	    <version>4.1.2</version>
@@ -70,18 +52,22 @@
 	    <version>4.1.2</version>
 	</dependency>
 	<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>datatable</artifactId>
+    <version>1.1.12</version>
+</dependency>
+	<dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.9.5</version>
     <scope>test</scope>
 </dependency>	
-<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-<dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.11.0</version>
-</dependency>
-		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
